@@ -6,10 +6,10 @@ TIME_STAMP="updated on $RIGHT_NOW by $USER"
 #### Functions
 drive_space ()
 {
-echo "<h3>Filesystem Sace</h3>"
-echo"<pre>"
+echo "<h3> Filesystem Space </h3>"
+echo "<pre>"
 df
-echo"</pre>"
+echo "</pre>"
 }
 SWAP_File ()
 {
@@ -28,7 +28,7 @@ cat <<- _EOF_
 
 	<body>
 	<p>$TIME_STAMP</p>
-	$(SWAP_File)
+	$SWAP_File
 	$(drive_space)
 </body>
 </html>

@@ -1,0 +1,27 @@
+#!/bin/bash
+#how_to_create_lubuntu_bootable_usb
+
+cat << _EOF_
+<html>
+<head>
+	<title>
+        Creating a Lubuntu Bootable USB in Windows
+	</title>
+</head>
+
+<body>
+1. Download your lubuntu  distro from https://lubuntu.me/downloads/
+2. Download Universal usb installer from https://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+3. Download Malvastyle Setup from http://malvastyle.com/removable-usb-disk-repair/
+The aforemention will help you repair you USB whenever you encounter formatting issues or errors.
+4. Launch the Universal usb Installer and follow the instructions:
+a. select your linux distribution from the drop down list.
+b. select the location of your distribution.
+c. select your usb drive.
+d. select the size of persistence (This helps save changes to your live usb distro)
+e. continue the process and once its successful your USB is ready.
+f. make your pc start from flash and you are ready to run your lubuntu from your flash on any PC. 
+</body>
+</html>
+_EOF_
+
